@@ -563,6 +563,6 @@ app.prepare().then(() => {
   // Start the server
   server.listen(3000, (err) => {
     if (err) throw err;
-    console.log("Server started on http://localhost:3000");
+    console.log("Server is started on http://localhost:3000");
   });
 });
