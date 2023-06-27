@@ -19,7 +19,7 @@ export default function Document() {
         {/* Add Script of Chat */}
         <script
           dangerouslySetInnerHTML={{
-            __html: `var continuallySettings = { appID: "k98reep6krep" };`,
+            __html: `var continuallySettings = { appID: "6p9r2jvzxrq7" };`,
           }}
         ></script>
         <script src="https://cdn-app.continual.ly/js/embed/continually-embed.latest.min.js"></script>
