@@ -18,7 +18,6 @@ export const Reviews = () => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Premier Pain Centers" />
-        <meta property="og:url" content="index.html" />
         <meta property="og:title" content="Reviews | Premier Pain Centers" />
         <meta
           property="og:description"

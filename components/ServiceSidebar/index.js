@@ -7,7 +7,7 @@ import { TreatmentsSidebarMenu } from "@/components/TreatmentsSidebarMenu";
 
 const CSR_ENDPOINT = process.env.NEXT_PUBLIC_URL;
 
-export const ServiceSidebar = () => {
+export const ServiceSidebar = ({ faq }) => {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [phone, setPhone] = useState("");
@@ -244,9 +244,13 @@ export const ServiceSidebar = () => {
             </div>
           </div>
         </form>
-        <ServicesSidebarLinks />
+        {faq !== "faq" && (
+          <>
+            <ServicesSidebarLinks />
 
-        <TreatmentsSidebarMenu />
+            <TreatmentsSidebarMenu />
+          </>
+        )}
       </div>
     </>
   );

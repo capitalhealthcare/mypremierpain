@@ -19,6 +19,7 @@ export const Header = ({ position, backgroundTransparent }) => {
           </p>
           <Link href="/video-testimonials">Video Testimonials</Link>
           <Link href="/blog">Blog</Link>
+          <Link href="/faqs">FAQ</Link>
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
           <Link href="/conditions-we-treat">Conditions We Treat</Link>
@@ -86,6 +87,9 @@ export const Header = ({ position, backgroundTransparent }) => {
                     </li>
                     <li>
                       <Link href="/blog">Blog</Link>
+                    </li>
+                    <li>
+                      <Link href="/faqs">FAQ</Link>
                     </li>
                   </ul>
                 </nav>
@@ -995,8 +999,8 @@ export const Header = ({ position, backgroundTransparent }) => {
         `}
       </Script> */}
       {/* <Script id="t-a-g-noscriot"> */}
-        {/* <!-- Google Tag Manager (noscript) --> */}
-        {/* <noscript>
+      {/* <!-- Google Tag Manager (noscript) --> */}
+      {/* <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-PJ54LHJ"
             height="0"
@@ -1004,7 +1008,7 @@ export const Header = ({ position, backgroundTransparent }) => {
             style="display:none;visibility:hidden"
           ></iframe>
         </noscript> */}
-        {/* <!-- End Google Tag Manager (noscript) --> */}
+      {/* <!-- End Google Tag Manager (noscript) --> */}
       {/* </Script> */}
       {/* <noscript>
         <a href="https://www.clickcease.com" rel="nofollow">
