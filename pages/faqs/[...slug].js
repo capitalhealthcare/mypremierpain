@@ -14,7 +14,7 @@ const Slug = ({ items }) => {
         <title>{items && items?.seoTitle[0]}</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/faq${
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/faqs${
             items && items?.slug
           }`}
         />
