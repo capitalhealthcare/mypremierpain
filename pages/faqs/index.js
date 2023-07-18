@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 import axios from "axios";
@@ -7,13 +7,9 @@ import { Footer } from "@/components/Footer/Footer";
 import { Header } from "@/components/Header/Header";
 
 const SSR_ENDPOINT = process.env.SSR_API_URL;
-const CSR_ENDPOINT = process.env.NEXT_PUBLIC_URL;
 
 export const FAQ = ({ item }) => {
-  const [items, setItems] = useState([]);
-  useEffect(() => {
-    setItems(item);
-  }, []);
+  const items = item
 
   return (
     <>
@@ -89,8 +85,8 @@ export const FAQ = ({ item }) => {
             <div className="main">
               <div className="card-container-blog">
                 {items?.map((data, index) => (
-                  <Link href={`/faqs${data.slug}`}>
-                    <div className="card faq-card" key={index}>
+                  <Link href={`/faqs${data.slug}`} key={index}>
+                    <div className="card faq-card" >
                       Q: {data.question}
                     </div>
                   </Link>
