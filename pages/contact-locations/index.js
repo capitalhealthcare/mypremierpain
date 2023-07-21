@@ -103,50 +103,7 @@ export const ContactLocations = () => {
               data-src="/assets/contact/contact-system-v1-bg.jpg"
             />
           </picture>
-          <div className="main thin text-align">
-            <header
-              className="no-pad bottom-margin-tiny center-800"
-              id="ContactSystemV1Header"
-            >
-              <h1>Contact Premier Pain Centers Today!</h1>
-              {/* <svg className="header-flair">
-                <use href="../includes/flair.svg#header"></use>
-              </svg> */}
-            </header>
-            <div
-              className="content-style relative bottom-margin"
-              id="ContactSystemV1Content"
-            >
-              <h2>Practical Solutions for Pain Relief</h2>
-              <p>
-                Premier Pain Centers is your one-stop-shop medical provider for
-                pain management and rehabilitation care. We understand that
-                chronic pain can be debilitating and our team works hard to
-                diagnose your condition and offer both surgical and non-surgical
-                treatment options tailored to your unique needs. We also provide
-                in person and phone consultations, and schedule appointment
-                within 24-hours. We proudly serve Richardson, Fort Worth, and
-                the surrounding areas. At Premier Pain Centers, we offer
-                comprehensive pain management solutions for a wide range of
-                conditions. You can count on us for effective treatment,
-                high-quality care, and helpful service.
-              </p>
-              <h5>phone number</h5>
-              <div>469-562-4188</div>
-              <h5>Fax</h5>
-              <div>469-562-4166</div>
-              <h5>Email</h5>
-              <div>
-                <Link
-                  target="_blank"
-                  rel="noreferrer"
-                  href="mailto:admin@mypremierpain.com"
-                >
-                  admin@mypremierpain.com
-                </Link>
-              </div>
-            </div>
-          </div>
+
           <div className="main top-margin-small">
             <div className="flex-auto-responsive-margined flex-direction align-items item-widths item-spacing">
               <div
@@ -351,19 +308,49 @@ export const ContactLocations = () => {
                   </div>
                 </div>
               </div>
-
-              <div className="MobileContent">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1582.1973361872328!2d-97.21270019994957!3d32.83043933275648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e79a45ee124d9%3A0x92d4c26d7da2ff07!2sPremier%20Pain%20Centers!5e0!3m2!1sen!2s!4v1683004730841!5m2!1sen!2s"
-                  width="900"
-                  className="mapframe"
-                  height="450"
-                  style={{ border: 0 }}
-                  allowFullScreen=""
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                ></iframe>
-                <div></div>
+              <div className="main thin text-align">
+                <header
+                  className="no-pad bottom-margin-tiny center-800"
+                  id="ContactSystemV1Header"
+                >
+                  <h1>Contact Premier Pain Centers Today!</h1>
+                  {/* <svg className="header-flair">
+                <use href="../includes/flair.svg#header"></use>
+              </svg> */}
+                </header>
+                <div
+                  className="content-style relative bottom-margin"
+                  id="ContactSystemV1Content"
+                >
+                  <h2>Practical Solutions for Pain Relief</h2>
+                  <p>
+                    Premier Pain Centers is your one-stop-shop medical provider for
+                    pain management and rehabilitation care. We understand that
+                    chronic pain can be debilitating and our team works hard to
+                    diagnose your condition and offer both surgical and non-surgical
+                    treatment options tailored to your unique needs. We also provide
+                    in person and phone consultations, and schedule appointment
+                    within 24-hours. We proudly serve Richardson, Fort Worth, and
+                    the surrounding areas. At Premier Pain Centers, we offer
+                    comprehensive pain management solutions for a wide range of
+                    conditions. You can count on us for effective treatment,
+                    high-quality care, and helpful service.
+                  </p>
+                  <h5>phone number</h5>
+                  <div>469-562-4188</div>
+                  <h5>Fax</h5>
+                  <div>469-562-4166</div>
+                  <h5>Email</h5>
+                  <div>
+                    <Link
+                      target="_blank"
+                      rel="noreferrer"
+                      href="mailto:admin@mypremierpain.com"
+                    >
+                      admin@mypremierpain.com
+                    </Link>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
