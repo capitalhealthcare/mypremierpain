@@ -51,11 +51,6 @@ export const Footer = () => {
                   </Link>
                 </li>
                 <li className="text-center fit">
-                  <Link href="/patient-forms/" target="">
-                    Patient Forms
-                  </Link>
-                </li>
-                <li className="text-center fit">
                   <Link href="/reviews/" target="">
                     Reviews
                   </Link>
@@ -88,7 +83,7 @@ export const Footer = () => {
           <div
             className="footer-info flex-spaced-between-block-1024-margined"
 
-            // itemtype="http://schema.org/MedicalClinic"
+          // itemtype="http://schema.org/MedicalClinic"
           >
             <div className="schema-info text-center fourth">
               <div className="business-info bottom-margin-tiny">

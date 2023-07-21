@@ -78,7 +78,7 @@
     },
     {
       "source": "/news/patient-forms/",
-      "destination": "/patient-forms/"
+      "destination": "/"
     },
     {
       "source": "/news/educational-videos/",
@@ -202,7 +202,11 @@
     },
     {
       "source": "/blog/patient-forms/",
-      "destination": "/patient-forms/"
+      "destination": "/"
+    },
+    {
+      "source": "/patient-forms/",
+      "destination": "/"
     },
     {
       "source": "/blog/reviews/",
@@ -296,27 +300,22 @@
       "source": "/treatments/video-testimonials/",
       "destination": "/video-testimonials/"
     },
-
     {
       "source": "/treatments/conditions-we-treat/back-pain/",
       "destination": "/conditions-we-treat/back-pain/"
     },
-
     {
       "source": "/treatments/contact-locations/richardson/",
       "destination": "/contact-locations/richardson/"
     },
-
     {
       "source": "/treatments/about/careers/",
       "destination": "/about/careers/"
     },
-
     {
       "source": "/treatments/conditions-we-treat/sports-injury/",
       "destination": "/conditions-we-treat/sports-injury/"
     },
-
     {
       "source": "/treatments/contact-locations/farmers-branch/",
       "destination": "/contact-locations/farmers-branch/"
@@ -325,12 +324,10 @@
       "source": "/treatments/conditions-we-treat/knee-pain/",
       "destination": "/conditions-we-treat/knee-pain/"
     },
-
     {
       "source": "/treatments/conditions-we-treat/headaches/",
       "destination": "/conditions-we-treat/headaches/"
     },
-
     {
       "source": "/treatments/conditions-we-treat/neck-pain/",
       "destination": "/conditions-we-treat/neck-pain/"
@@ -347,7 +344,6 @@
       "source": "/treatments/patient-forms/",
       "destination": "/treatments/"
     },
-
     {
       "source": "/contact-locations/about/careers/",
       "destination": "/about/careers/"
@@ -368,12 +364,10 @@
       "source": "/contact-locations/contact-locations/waxahachie/",
       "destination": "/contact-locations/waxahachie/"
     },
-
     {
       "source": "/contact-locations/conditions-we-treat/sports-injury/",
       "destination": "/conditions-we-treat/sports-injury/"
     },
-
     {
       "source": "/contact-locations/contact-locations/hillsboro/",
       "destination": "/contact-locations/hillsboro/"
@@ -382,17 +376,14 @@
       "source": "/contact-locations/educational-videos/",
       "destination": "/educational-videos/"
     },
-
     {
       "source": "/contact-locations/conditions-we-treat/headaches/",
       "destination": "/conditions-we-treat/headaches/"
     },
-
     {
       "source": "/contact-locations/conditions-we-treat/knee-pain/",
       "destination": "/conditions-we-treat/knee-pain/"
     },
-
     {
       "source": "/contact-locations/patient-info/",
       "destination": "/"
@@ -405,32 +396,26 @@
       "source": "/contact-locations/contact-locations/lancaster/",
       "destination": "/contact-locations/lancaster/"
     },
-
     {
       "source": "/contact-locations/contact-locations/fort-worth/",
       "destination": "/contact-locations/fort-worth/"
     },
-
     {
       "source": "/contact-locations/conditions-we-treat/",
       "destination": "/contact-locations/"
     },
-
     {
       "source": "/contact-locations/conditions-we-treat/neck-pain/",
       "destination": "/conditions-we-treat/neck-pain/"
     },
-
     {
       "source": "/contact-locations/conditions-we-treat/back-pain/",
       "destination": "/conditions-we-treat/back-pain/"
     },
-
     {
       "source": "/contact-locations/reviews/",
       "destination": "/reviews/"
     },
-
     {
       "source": "/contact-locations/contact-locations/",
       "destination": "/contact-locations/"
@@ -443,17 +428,14 @@
       "source": "/contact-locations/video-testimonials/",
       "destination": "/video-testimonials/"
     },
-
     {
       "source": "/contact-locations/conditions-we-treat/car-accident-injury/",
       "destination": "/conditions-we-treat/car-accident-injury/"
     },
-
     {
       "source": "/contact-locations/about/",
       "destination": "/about/"
     },
-
     {
       "source": "/contact-locations/conditions-we-treat/joint-pain/",
       "destination": "/conditions-we-treat/joint-pain/"
@@ -462,12 +444,10 @@
       "source": "/contact-locations/meet-our-team/",
       "destination": "/meet-our-team/"
     },
-
     {
       "source": "/conditions-we-treat/contact-locations/corsicana/",
       "destination": "/contact-locations/corsicana/"
     },
-
     {
       "source": "/conditions-we-treat/contact-locations/north-richland-hills/",
       "destination": "/contact-locations/north-richland-hills/"
@@ -480,32 +460,26 @@
       "source": "/conditions-we-treat/contact-locations/richardson/",
       "destination": "/contact-locations/richardson/"
     },
-
     {
       "source": "/conditions-we-treat/contact-locations/hillsboro/",
       "destination": "/contact-locations/hillsboro/"
     },
-
     {
       "source": "conditions-we-treat/contact-locations/waxahachie/",
       "destination": "/contact-locations/waxahachie/"
     },
-
     {
       "source": "/conditions-we-treat/contact-locations/fort-worth/",
       "destination": "/contact-locations/fort-worth/"
     },
-
     {
       "source": "/conditions-we-treat/contact-locations/",
       "destination": "/contact-locations/"
     },
-
     {
       "source": "/conditions-we-treat/contact-locations/lancaster/",
       "destination": "/contact-locations/lancaster/"
     },
-
     {
       "source": "/meet-our-team/contact-locations/corsicana/",
       "destination": "/contact-locations/"
@@ -514,12 +488,10 @@
       "source": "/about/contact-locations/fort-worth/",
       "destination": "/contact-locations/fort-worth/"
     },
-
     {
       "source": "/about/contact-locations/richardson/",
       "destination": "/contact-locations/richardson/"
     },
-
     {
       "source": "/about/contact-locations/hillsboro/",
       "destination": "/contact-locations/hillsboro/"

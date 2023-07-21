@@ -1,36 +1,22 @@
-// import { Banner } from "@/components/CommonBanner/Banner";
-// import { CommonFormsSections } from "@/components/CommonForms&Sections";
-// import { Footer } from "@/components/Footer/Footer";
-// import { Header } from "@/components/Header/Header";
-// import { ServicesSidebarLinks } from "@/components/ServicesSidebarLinks";
-// import { TreatmentsSidebarMenu } from "@/components/TreatmentsSidebarMenu";
-// import Head from "next/head";
-// import Link from "next/link";
-// import React from "react";
-// import { useRouter } from "next/router";
-// import dynamic from 'next/dynamic'
-
+import { Banner } from "@/components/CommonBanner/Banner";
+import { CommonFormsSections } from "@/components/CommonForms&Sections";
 import { Footer } from "@/components/Footer/Footer";
 import { Header } from "@/components/Header/Header";
+import { ServicesSidebarLinks } from "@/components/ServicesSidebarLinks";
+import { TreatmentsSidebarMenu } from "@/components/TreatmentsSidebarMenu";
 import Head from "next/head";
 import Link from "next/link";
 import React from "react";
 import { useRouter } from "next/router";
-import dynamic from 'next/dynamic'
 
-const Banner = dynamic(() => import("@/components/CommonBanner/Banner"));
-const CommonFormsSections = dynamic(() => import("@/components/CommonForms&Sections"));
-const ServicesSidebarLinks = dynamic(() => import("@/components/ServicesSidebarLinks"));
-const TreatmentsSidebarMenu = dynamic(() => import("@/components/TreatmentsSidebarMenu"));
-
-export const CarAccidentInjury = () => {
+const CarAccidentInjury = () => {
   const router = useRouter();
 
   return (
     <>
       <Head>
         <title>
-          Richardson Car Accident Injury Treatment | Premier Pain Centers{" "}
+          {`Richardson Car Accident Injury Treatment | Premier Pain Centers`}
         </title>
         <link
           rel="canonical"
@@ -241,4 +227,4 @@ export const CarAccidentInjury = () => {
   );
 };
 
-export default CarAccidentInjury
+export default CarAccidentInjury;

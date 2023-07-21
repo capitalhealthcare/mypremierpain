@@ -92,13 +92,6 @@ export const PatientInfo = () => {
                     all the necessary information to find the best pain
                     treatments for your specific circumstances. This will be our
                     guide to help you along the path to healing.
-                    <b>
-                      For more information, browse topics on our
-                      <Link href="/blog/">&nbsp;blog</Link> or, for your
-                      convenience, you can get started with our&nbsp;
-                      <Link href="../patient-forms/">online patient forms</Link>
-                      .
-                    </b>
                   </p>
                   <p
                     align="center"

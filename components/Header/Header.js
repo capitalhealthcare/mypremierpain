@@ -24,7 +24,6 @@ export const Header = ({ position, backgroundTransparent }) => {
           <Link href="/about">About</Link>
           <Link href="/conditions-we-treat">Conditions We Treat</Link>
           <Link href="/educational-videos">Educational Videos</Link>
-          <Link href="/patient-forms">Patient Forms</Link>
           <Link href="/reviews">Reviews</Link>
           <Link href="/contact-locations">Contact & Locations</Link>
         </div>
@@ -446,14 +445,6 @@ export const Header = ({ position, backgroundTransparent }) => {
                     <li className=" flex-block-1024 auto relative">
                       <Link
                         className="flex-middle-center-block-1024 auto center-1024"
-                        href="/patient-forms"
-                      >
-                        Patient Forms
-                      </Link>
-                    </li>
-                    <li className=" flex-block-1024 auto relative">
-                      <Link
-                        className="flex-middle-center-block-1024 auto center-1024"
                         href="/reviews"
                       >
                         Reviews
@@ -805,14 +796,6 @@ export const Header = ({ position, backgroundTransparent }) => {
                       className="title-style-4 title-color-4"
                     >
                       Educational Videos
-                    </Link>
-                  </li>
-                  <li className="top-margin-small    relative">
-                    <Link
-                      href="patient-forms/"
-                      className="title-style-4 title-color-4"
-                    >
-                      Patient Forms
                     </Link>
                   </li>
                   <li className="top-margin-small    relative">

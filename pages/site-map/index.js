@@ -128,11 +128,6 @@ export const SiteMap = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="../patient-forms" target="">
-                      Patient Forms
-                    </Link>
-                  </li>
-                  <li>
                     <Link href="../video-testimonials" target="">
                       Video Testimonials
                     </Link>
