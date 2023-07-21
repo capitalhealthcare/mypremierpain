@@ -26,11 +26,6 @@ export const ServicesSidebarLinks = () => {
               </Link>
             </li>
             <li className="level-1  ">
-              <Link className="auto" href="/patient-info" target="">
-                Worker's Compensation
-              </Link>
-            </li>
-            <li className="level-1  ">
               <Link
                 className="auto"
                 href="/conditions-we-treat/sports-injury"

@@ -8,6 +8,7 @@ import Head from "next/head";
 import Link from "next/link";
 import React from "react";
 import { useRouter } from "next/router";
+import dynamic from 'next/dynamic'
 
 export const CarAccidentInjury = () => {
   const router = useRouter();
@@ -227,4 +228,6 @@ export const CarAccidentInjury = () => {
   );
 };
 
-export default CarAccidentInjury;
+export default dynamic(() => Promise.resolve(CarAccidentInjury), {
+  ssr: false,
+})

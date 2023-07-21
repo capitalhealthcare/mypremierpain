@@ -65,11 +65,6 @@ export const SiteMap = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link href="../patient-info/" target="">
-                          Worker's Compensation
-                        </Link>
-                      </li>
-                      <li>
                         <Link
                           href="../conditions-we-treat/sports-injury/"
                           target=""

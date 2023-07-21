@@ -332,7 +332,7 @@ export const Treatments = () => {
                 <li className="flex-column" data-item="i" data-key="75437">
                   <Link
                     className="flex-column-center-middle auto scaling-img-item  relative full bg-box text-center side-padding-large vertical-padding-medium border-radius-item"
-                    href="/patient-info/"
+                    href="/treatments/regenerating-spinal-discs/"
                   >
                     <picture className="img-bg">
                       <source

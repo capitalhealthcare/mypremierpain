@@ -110,7 +110,7 @@
     },
     {
       "source": "/news/patient-info/",
-      "destination": "/patient-info/"
+      "destination": "/"
     },
     {
       "source": "/news/conditions-we-treat/car-accident-injury/",
@@ -174,7 +174,7 @@
     },
     {
       "source": "/blog/patient-info/",
-      "destination": "/patient-info/"
+      "destination": "/"
     },
     {
       "source": "/blog/conditions-we-treat/sports-injury/",
@@ -395,9 +395,12 @@
 
     {
       "source": "/contact-locations/patient-info/",
-      "destination": "/patient-info/"
+      "destination": "/"
     },
-
+    {
+      "source": "/patient-info/",
+      "destination": "/"
+    },
     {
       "source": "/contact-locations/contact-locations/lancaster/",
       "destination": "/contact-locations/lancaster/"

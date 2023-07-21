@@ -759,30 +759,7 @@ export default function Home({ items }) {
                       <span className="relative btn-style full">Back Pain</span>
                     </Link>
                   </li>
-                  <li className="flex-column" data-item="i" data-key="75437">
-                    <Link
-                      className="flex-column-center-middle auto scaling-img-item  relative full bg-box text-center side-padding-large vertical-padding-medium border-radius-item"
-                      href="/patient-info/"
-                    >
-                      <picture className="img-bg">
-                        <source
-                          media="(max-width: 500px)"
-                          srcSet="/assets/New-folder/sports-injury.jpg"
-                          data-src="/assets/New-folder/sports-injury.jpg"
-                        />
-                        <Image
-                          layout="fill"
-                          src="/assets/New-folder/sports-injury.jpg"
-                          alt="Worker's Compensation Image"
-                          data-src="/assets/New-folder/sports-injury.jpg"
-                        />
-                      </picture>
-
-                      <span className="relative btn-style full">
-                        Worker's Compensation
-                      </span>
-                    </Link>
-                  </li>
+                  
                   <li className="flex-column" data-item="i" data-key="75436">
                     <Link
                       className="flex-column-center-middle auto scaling-img-item  relative full bg-box text-center side-padding-large vertical-padding-medium border-radius-item"

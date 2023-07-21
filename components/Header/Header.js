@@ -94,43 +94,42 @@ export const Header = ({ position, backgroundTransparent }) => {
                   </ul>
                 </nav>
                 <div className="hideOnMobile">
-                  <div>
-                    <Link
-                      // href="/contact-locations/patient-portal/"
-                      href="/"
-                      style={{
-                        fontSize: "1.2rem",
-                        fontFamily: "Source Sans Pro",
-                        letterSpacing: "0.1em",
-                        color: "#F1F1F1",
-                        fontWeight: "600",
-                        lineHeight: "1.2",
-                        backgroundColor: "#004588",
-                        padding: "1vh",
-                        borderRadius: ".2vw",
-                        marginRight: "10px",
-                      }}
-                    >
-                      Patient Portal{" "}
-                    </Link>
 
-                    <Link
-                      href="tel:469-562-4188"
-                      style={{
-                        fontSize: "1.2rem",
-                        fontFamily: "Source Sans Pro",
-                        letterSpacing: "0.1em",
-                        color: "#F1F1F1",
-                        fontWeight: "600",
-                        lineHeight: "1.2",
-                        backgroundColor: "#004588",
-                        padding: "1vh",
-                        borderRadius: ".2vw",
-                      }}
-                    >
-                      469-562-4188{" "}
-                    </Link>
-                  </div>
+                  <Link
+                    href="/contact-locations/"
+                    style={{
+                      fontSize: "1.2rem",
+                      fontFamily: "Source Sans Pro",
+                      letterSpacing: "0.1em",
+                      color: "#F1F1F1",
+                      fontWeight: "600",
+                      lineHeight: "1.2",
+                      backgroundColor: "#004588",
+                      padding: "1vh",
+                      borderRadius: ".2vw",
+                      marginRight: "10px",
+                    }}
+                  >
+                    Appointment{" "}
+                  </Link>
+
+                  <Link
+                    href="tel:469-562-4188"
+                    style={{
+                      fontSize: "1.2rem",
+                      fontFamily: "Source Sans Pro",
+                      letterSpacing: "0.1em",
+                      color: "#F1F1F1",
+                      fontWeight: "600",
+                      lineHeight: "1.2",
+                      backgroundColor: "#004588",
+                      padding: "1vh",
+                      borderRadius: ".2vw",
+                    }}
+                  >
+                    469-562-4188{" "}
+                  </Link>
+
                 </div>
                 {/* { toggleSearch && <>
                   <input className="searchInpt" type="text"  value={searchValue} onChange={serchFilter} />
@@ -236,14 +235,6 @@ export const Header = ({ position, backgroundTransparent }) => {
                             href="/conditions-we-treat/car-accident-injury"
                           >
                             Car Accident Injury
-                          </Link>
-                        </li>
-                        <li className="">
-                          <Link
-                            className="btn-color-hover"
-                            href="/patient-info"
-                          >
-                            Worker's Compensation
                           </Link>
                         </li>
                         <li className="">
@@ -681,11 +672,6 @@ export const Header = ({ position, backgroundTransparent }) => {
                         </Link>
                       </li>
                       <li className="">
-                        <Link className="btn-color-hover" href="patient-info/">
-                          Worker's Compensation
-                        </Link>
-                      </li>
-                      <li className="">
                         <Link
                           className="btn-color-hover"
                           href="conditions-we-treat/sports-injury/"
@@ -761,11 +747,6 @@ export const Header = ({ position, backgroundTransparent }) => {
                           href="conditions-we-treat/car-accident-injury/"
                         >
                           Car Accident Injury
-                        </Link>
-                      </li>
-                      <li className="">
-                        <Link className="btn-color-hover" href="patient-info/">
-                          Worker's Compensation
                         </Link>
                       </li>
                       <li className="">
