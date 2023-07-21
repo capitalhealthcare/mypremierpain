@@ -133,11 +133,6 @@ export const NorthRichlandHills = () => {
                     </Link>
                   </li>
                   <li className="level-1  ">
-                    <Link className="auto" href="/about/careers/" target="">
-                      Careers
-                    </Link>
-                  </li>
-                  <li className="level-1  ">
                     <Link
                       className="auto"
                       href="../../assets/Rao-Ali-AR-1.pdf"

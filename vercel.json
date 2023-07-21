@@ -122,7 +122,7 @@
     },
     {
       "source": "/news/about/careers/",
-      "destination": "/about/careers/"
+      "destination": "/about/"
     },
     {
       "source": "/news/reviews/",
@@ -162,7 +162,7 @@
     },
     {
       "source": "/blog/about/careers/",
-      "destination": "/about/careers/"
+      "destination": "/about/"
     },
     {
       "source": "/blog/conditions-we-treat/",
@@ -310,7 +310,7 @@
     },
     {
       "source": "/treatments/about/careers/",
-      "destination": "/about/careers/"
+      "destination": "/about/"
     },
     {
       "source": "/treatments/conditions-we-treat/sports-injury/",
@@ -346,7 +346,7 @@
     },
     {
       "source": "/contact-locations/about/careers/",
-      "destination": "/about/careers/"
+      "destination": "/about/"
     },
     {
       "source": "/contact-locations/contact-locations/north-richland-hills/",

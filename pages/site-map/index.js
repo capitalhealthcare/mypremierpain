@@ -41,11 +41,6 @@ export const SiteMap = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="../about/careers/" target="">
-                      Careers
-                    </Link>
-                  </li>
-                  <li>
                     <Link href="../assets/Rao-Ali-AR-1.pdf" target="_blank">
                       Insurances Accepted
                     </Link>

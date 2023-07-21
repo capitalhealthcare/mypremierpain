@@ -209,14 +209,6 @@ export const Header = ({ position, backgroundTransparent }) => {
                             Our Providers
                           </Link>
                         </li>
-                        <li className="">
-                          <Link
-                            className="btn-color-hover"
-                            href="/about/careers/"
-                          >
-                            Careers
-                          </Link>
-                        </li>
                       </ul>
                     </li>
                     <li className=" flex-block-1024 auto relative">
@@ -616,11 +608,6 @@ export const Header = ({ position, backgroundTransparent }) => {
                       <li className="">
                         <Link className="btn-color-hover" href="meet-our-team/">
                           Our Providers
-                        </Link>
-                      </li>
-                      <li className="">
-                        <Link className="btn-color-hover" href="about/careers/">
-                          Careers
                         </Link>
                       </li>
                       <li className="">
