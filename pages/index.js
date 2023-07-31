@@ -759,7 +759,7 @@ export default function Home({ items }) {
                       <span className="relative btn-style full">Back Pain</span>
                     </Link>
                   </li>
-                  
+
                   <li className="flex-column" data-item="i" data-key="75436">
                     <Link
                       className="flex-column-center-middle auto scaling-img-item  relative full bg-box text-center side-padding-large vertical-padding-medium border-radius-item"
@@ -1208,40 +1208,6 @@ export default function Home({ items }) {
                       <div className="side-padding-medium vertical-padding-tiny auto full flex-column-center">
                         <strong className="title-style-5 title-color-5 full">
                           William Blessing
-                        </strong>
-
-                        <p className="no-top-margin no-bottom-margin title-color-4 full note-style">
-                          M.D.
-                        </p>
-
-                        <div className="top-margin-tiny">
-                          <span className="btn v2">View Profile</span>
-                        </div>
-                      </div>
-                    </Link>
-                  </li>
-                  <li
-                    className="full flex-"
-                    data-role="item"
-                    data-item="i"
-                    data-key="37606"
-                  >
-                    <Link
-                      className="relative flex-column full scaling-img-item bg-box overflow-hidden border-radius staff-item"
-                      href="meet-our-team/ranjit-sandhu/"
-                    >
-                      <div className="img pad-height-100 bg-position full">
-                        <Image
-                          layout="fill"
-                          src="/cms/thumbnails/34/400x400/images/staff/Randjit-Sandhu-Updated.jpg"
-                          alt="Ranjit  Sandhu Photo"
-                          title="Ranjit  Sandhu Photo"
-                          data-bg="/cms/thumbnails/34/400x400/images/staff/Randjit-Sandhu-Updated.jpg"
-                        />
-                      </div>
-                      <div className="side-padding-medium vertical-padding-tiny auto full flex-column-center">
-                        <strong className="title-style-5 title-color-5 full">
-                          Ranjit Sandhu
                         </strong>
 
                         <p className="no-top-margin no-bottom-margin title-color-4 full note-style">

@@ -366,40 +366,6 @@ export const About = () => {
                   </div>
                 </Link>
               </li>
-
-              <li
-                className="fourth flex-"
-                data-role="item"
-                data-item="i"
-                data-key="37606"
-              >
-                <Link
-                  className="relative flex-column full scaling-img-item bg-box staff-item"
-                  href="/meet-our-team/ranjit-sandhu/"
-                >
-                  <div className="img pad-height-100 bg-position full">
-                    <Image
-                      layout="fill"
-                      src="/cms/thumbnails/34/400x400/images/Randjit-Sandhu-Updated.jpg"
-                      alt="Ranjit  Sandhu Photo"
-                      title="Ranjit  Sandhu Photo"
-                      className=""
-                      style={{
-                        backgroundImage:
-                          "url(/cms/thumbnails/34/400x400/images/Randjit-Sandhu-Updated.jpg)",
-                      }}
-                    />
-                  </div>
-                  <div className="side-padding-medium vertical-padding-tiny auto full flex-column-center">
-                    <strong className="title-style-5 title-color-5 full">
-                      Ranjit Sandhu
-                    </strong>
-                    <p className="no-top-margin no-bottom-margin title-color-4 full note-style">
-                      M.D.
-                    </p>
-                  </div>
-                </Link>
-              </li>
             </ul>
           </div>
 
